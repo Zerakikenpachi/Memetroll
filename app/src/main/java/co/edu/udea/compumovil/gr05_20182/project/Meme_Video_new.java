@@ -1,13 +1,14 @@
 package co.edu.udea.compumovil.gr05_20182.project;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.app.Activity;
 
-public class MainActivity extends AppCompatActivity {
+public class Meme_Video_new extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_meme_video_new);
     }
+
 }

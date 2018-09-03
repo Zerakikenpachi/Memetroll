@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="co.edu.udea.compumovil.gr05_20182.project">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="App Memetroll"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Main_Activity" />
+        <activity
+            android:name=".Splash_Screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Meme_Image_new"
+            android:label="@string/title_activity_memes" />
+        <activity
+            android:name=".Meme_Video_new"
+            android:label="@string/title_activity_meme_video" />
+        <activity
+            android:name=".Meme_Image_Popular"
+            android:label="@string/title_activity_meme__image__popular" />
+        <activity
+            android:name=".Meme_Video_Popular"
+            android:label="@string/title_activity_meme__video__popular" />
+        <activity
+            android:name=".Meme_Image_Old"
+            android:label="@string/title_activity_meme__image__old" />
+        <activity
+            android:name=".Meme_Video_Old"
+            android:label="@string/title_activity_meme__video__old"></activity>
     </application>
 
 </manifest>
