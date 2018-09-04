@@ -45,10 +45,10 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
-                        android:text="Imagen"
+                        android:text="@string/image"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:textSize="8pt"
+                        android:textSize="7pt"
                         android:textColor="@color/backgroundcolor"
                         android:textStyle="bold"/>
                     <LinearLayout
@@ -60,7 +60,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
-                            android:text="Nuevos"
+                            android:text="@string/nnew"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:textSize="7pt"
@@ -68,6 +68,7 @@
                             android:textStyle="bold"/>
                     </LinearLayout>
                     <ImageButton
+                        android:id="@+id/photo_new"
                         android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -82,7 +83,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
-                            android:text="Antiguos"
+                            android:text="@string/old"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:textSize="6pt"
@@ -90,6 +91,7 @@
                             android:textStyle="bold"/>
                     </LinearLayout>
                     <ImageButton
+                        android:id="@+id/image_old"
                         android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -104,7 +106,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
-                            android:text="Populares"
+                            android:text="@string/popular"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:textSize="7pt"
@@ -112,6 +114,7 @@
                             android:textStyle="bold"/>
                     </LinearLayout>
                     <ImageButton
+                        android:id="@+id/image_popular"
                         android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -134,10 +137,10 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="20dp"
-                        android:text="Video"
+                        android:text="@string/video"
                         android:layout_gravity="center"
                         android:gravity="center"
-                        android:textSize="8pt"
+                        android:textSize="7pt"
                         android:textColor="@color/backgroundcolor"
                         android:textStyle="bold"/>
                     <LinearLayout
@@ -149,7 +152,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
-                            android:text="Nuevos"
+                            android:text="@string/nnew"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:textSize="7pt"
@@ -157,6 +160,7 @@
                             android:textStyle="bold"/>
                     </LinearLayout>
                     <ImageButton
+                        android:id="@+id/video_new"
                         android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -171,7 +175,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
-                            android:text="Antiguos"
+                            android:text="@string/old"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:textSize="7pt"
@@ -179,6 +183,7 @@
                             android:textStyle="bold"/>
                     </LinearLayout>
                     <ImageButton
+                        android:id="@+id/video_old"
                         android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -193,7 +198,7 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="20dp"
-                            android:text="Populares"
+                            android:text="@string/popular"
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:textSize="7pt"
@@ -201,6 +206,7 @@
                             android:textStyle="bold"/>
                     </LinearLayout>
                     <ImageButton
+                        android:id="@+id/video_popular"
                         android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"

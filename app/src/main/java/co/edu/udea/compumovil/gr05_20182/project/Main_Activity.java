@@ -53,7 +53,7 @@ public class Main_Activity extends AppCompatActivity{
         });
 
         ImageButton Image_Button_Popular =  findViewById(R.id.image_popular);
-        Video_Button_New.setOnClickListener(new View.OnClickListener() {
+        Image_Button_Popular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent Image_Button_Popular = new Intent(Main_Activity.this,Meme_Video_new.class);
@@ -62,7 +62,7 @@ public class Main_Activity extends AppCompatActivity{
         });
 
         ImageButton Video_Button_Popular =  findViewById(R.id.video_popular);
-        Video_Button_New.setOnClickListener(new View.OnClickListener() {
+        Video_Button_Popular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent Video_Button_Popular = new Intent(Main_Activity.this,Meme_Video_new.class);

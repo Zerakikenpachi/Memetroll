@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Memetroll</string>
+    <string name="image">Imagen</string>
+    <string name="video">Videos</string>
+    <string name="nnew">Nuevos</string>
+    <string name="old">Antiguos</string>
+    <string name="popular">Populares</string>
+
+</resources>
