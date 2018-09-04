@@ -91,7 +91,7 @@
                             android:textStyle="bold"/>
                     </LinearLayout>
                     <ImageButton
-                        android:id="@+id/image_old"
+                        android:id="@+id/photo_old"
                         android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -114,7 +114,7 @@
                             android:textStyle="bold"/>
                     </LinearLayout>
                     <ImageButton
-                        android:id="@+id/image_popular"
+                        android:id="@+id/photo_popular"
                         android:layout_gravity="center"
                         android:layout_width="100dp"
                         android:layout_height="100dp"

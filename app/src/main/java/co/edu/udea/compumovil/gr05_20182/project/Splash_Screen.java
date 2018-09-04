@@ -16,8 +16,8 @@ public class Splash_Screen extends Activity {
             public void run() {
                 Intent intenet = new Intent(Splash_Screen.this,Main_Activity.class);
                 startActivity(intenet);
+                finish();
             }
         },3000);
     }
-
 }

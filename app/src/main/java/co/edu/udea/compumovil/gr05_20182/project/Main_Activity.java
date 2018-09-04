@@ -25,7 +25,7 @@ public class Main_Activity extends AppCompatActivity{
             }
         });
 
-        ImageButton Image_Button_Old =  findViewById(R.id.image_old);
+        ImageButton Image_Button_Old =  findViewById(R.id.photo_old);
         Image_Button_Old.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +52,7 @@ public class Main_Activity extends AppCompatActivity{
             }
         });
 
-        ImageButton Image_Button_Popular =  findViewById(R.id.image_popular);
+        ImageButton Image_Button_Popular =  findViewById(R.id.photo_popular);
         Image_Button_Popular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -6,4 +6,12 @@
     <string name="old">Antiguos</string>
     <string name="popular">Populares</string>
 
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_memes">Memes</string>
+    <string name="title_activity_meme_video">Meme_video</string>
+    <string name="title_activity_meme__image__popular">Meme_Image_Popular</string>
+    <string name="title_activity_meme__video__popular">Meme_Video_Popular</string>
+    <string name="title_activity_meme__image__old">Meme_Image_Old</string>
+    <string name="title_activity_meme__video__old">Meme_Video_Old</string>
 </resources>
