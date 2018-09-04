@@ -8,7 +8,7 @@ public class Meme_Image_new extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_memes);
+        setContentView(R.layout.activity_memes_image_new);
     }
 
 }
